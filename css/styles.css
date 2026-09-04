@@ -1,3 +1,9 @@
 html {
     scroll-padding-top: 70px;
 }
+.card-img-custom {
+    height: 220px;         
+    object-fit: contain;    
+    object-position: center; 
+    padding: 10px;          
+}
