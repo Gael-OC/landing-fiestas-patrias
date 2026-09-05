@@ -1,5 +1,46 @@
 html {
-    scroll-padding-top: 70px;
+    scroll-padding-top: 70px;   
+}
+
+#cronograma td {
+    color: white;
+}
+
+#cronograma th {
+    color: white;
+    padding: 10px;
+}
+
+#cronograma .d-flex {
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory;
+}
+
+#cronograma .card {
+    width: 80%; 
+    height: auto; 
+    transition: all 0.3s; 
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+    #cronograma .card:hover {
+        transform: scale(1.15);
+    }
+}
+
+@media (min-width: 768px) {
+    #cronograma .d-flex {
+        scroll-snap-type: none;
+        overflow-x: visible;
+    }
+
+    #cronograma .card {
+        width: 33%; 
+        height: 35rem;
+    }
+        
 }
 .card-img-custom {
     height: 220px;         
