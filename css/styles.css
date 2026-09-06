@@ -2,6 +2,19 @@ html {
     scroll-padding-top: 70px;   
 }
 
+.navbar {
+    min-height: 70px;
+}
+
+.hero {
+    min-height: calc(100svh - 70px);
+}
+
+/*Espacio para volantin*/
+.hero-kite-space {
+    min-height: 350px;
+}
+
 #cronograma td {
     color: white;
 }
