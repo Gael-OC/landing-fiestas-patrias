@@ -13,7 +13,13 @@ html {
 
 /*Espacio para volantin*/
 .hero-kite-space {
-    min-height: 350px;
+    min-height: 180px;
+}
+
+@media (min-width: 992px) {
+    .hero-kite-space {
+        min-height: 350px;
+    }
 }
 
 body {
@@ -117,4 +123,22 @@ body {
 
 .bg-tommy-rey{
     background-color: rgb(139 71 36);
+}
+
+
+footer {
+    background-color: rgba(15, 45, 20, 0);
+    backdrop-filter: blur(3px);
+}
+
+@media (max-width: 767px) {
+    .footer-scene {
+        height: 110svh;
+    }
+    .footer-landscape {
+        height: 100%;
+        object-fit: cover;
+        object-position: center bottom;
+    }
+
 }
