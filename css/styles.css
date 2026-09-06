@@ -3,11 +3,12 @@ html {
 }
 
 .navbar {
-    min-height: 70px;
+    min-height: 50px;
+    backdrop-filter: blur(3px);
 }
 
 .hero {
-    min-height: calc(100svh - 70px);
+    min-height: calc(100svh - 50px);
 }
 
 /*Espacio para volantin*/
@@ -17,26 +18,24 @@ html {
 
 body {
     min-height: 100vh;
-
     background:
         radial-gradient(
             ellipse at 75% 68%,
-            rgba(255, 205, 145, 0.42) 0%,
-            rgba(255, 205, 145, 0.12) 18%,
-            transparent 36%
+            rgba(255, 221, 166, 0.50) 0%,
+            rgba(255, 205, 145, 0.18) 20%,
+            transparent 38%
         ),
         linear-gradient(
             180deg,
             #4b9fe1 0%,
-            #68afe5 13%,
-            #8fc8eb 27%,
-            #b9dff0 40%,
-            #e5e7dc 51%,
-            #f4cfb0 61%,
-            #eeaa86 70%,
-            #d77f70 80%,
-            #a65f70 90%,
-            #67475f 100%
+            #68afe5 15%,
+            #91c8ea 30%,
+            #c6e3ef 43%,
+            #f3e4cf 55%,
+            #f7c9a8 68%,
+            #efa789 80%,
+            #df9388 90%,
+            #cd8f91 100%
         );
 
     background-repeat: no-repeat;
