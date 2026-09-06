@@ -42,9 +42,29 @@ html {
     }
         
 }
-.card-img-custom {
-    height: 220px;         
-    object-fit: contain;    
-    object-position: center; 
-    padding: 10px;          
+
+
+.card-media {
+    position: relative;
+    z-index: 2;
+}
+
+.card-stage {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    border-radius: 40% 40% 0 0 / 8rem 8rem 0 0;
+    padding-top: 4rem;
+}
+
+.bg-tortuga {
+    background-color: #8BC34A;
+}
+
+.bg-jaivas{
+    background-color: rgb(110 137 145);
+}
+
+.bg-tommy-rey{
+    background-color: rgb(139 71 36);
 }
