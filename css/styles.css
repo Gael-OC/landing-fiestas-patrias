@@ -15,6 +15,33 @@ html {
     min-height: 350px;
 }
 
+body {
+    min-height: 100vh;
+
+    background:
+        radial-gradient(
+            ellipse at 75% 68%,
+            rgba(255, 205, 145, 0.42) 0%,
+            rgba(255, 205, 145, 0.12) 18%,
+            transparent 36%
+        ),
+        linear-gradient(
+            180deg,
+            #4b9fe1 0%,
+            #68afe5 13%,
+            #8fc8eb 27%,
+            #b9dff0 40%,
+            #e5e7dc 51%,
+            #f4cfb0 61%,
+            #eeaa86 70%,
+            #d77f70 80%,
+            #a65f70 90%,
+            #67475f 100%
+        );
+
+    background-repeat: no-repeat;
+}
+
 #cronograma td {
     color: white;
 }
@@ -38,6 +65,10 @@ html {
 }
 
 @media (hover: hover) {
+    .info-card:hover {
+        transform: translateY(-8px);
+    }
+
     #cronograma .card:hover {
         transform: scale(1.15);
     }
@@ -56,6 +87,13 @@ html {
         
 }
 
+.info-card {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 1.5rem;
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease;
+}
 
 .card-media {
     position: relative;
