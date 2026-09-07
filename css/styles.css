@@ -4,6 +4,12 @@ html {
 
 .navbar {
     min-height: 50px;
+    --bs-navbar-hover-color: white;
+    --bs-navbar-brand-hover-color: white;
+}
+
+.navbar,
+.mobile-menu {
     backdrop-filter: blur(3px);
 }
 
@@ -112,7 +118,7 @@ body {
     }
 
     #cronograma .card:hover {
-        transform: scale(1.15);
+        transform: scale(1.06);
     }
 }
 
@@ -123,16 +129,13 @@ body {
     }
 
     #cronograma .card {
-        width: 33%; 
+        width: 31%; 
         height: 35rem;
     }
         
 }
 
 .info-card {
-    background-color: rgba(255, 255, 255, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 1.5rem;
     backdrop-filter: blur(8px);
     transition: transform 0.3s ease;
 }
@@ -219,7 +222,7 @@ footer {
 
 @media (max-width: 767px) {
     .footer-scene {
-        height: 110svh;
+        height: 80svh;
     }
     .footer-landscape {
         height: 100%;
