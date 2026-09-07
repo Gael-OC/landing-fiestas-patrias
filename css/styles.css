@@ -39,6 +39,13 @@ main section {
         margin: 3rem 0 0 auto;
     }
 }
+@media (max-width: 767px) {
+    .tail-shape {
+        transform-box: view-box;
+        transform-origin: 110px 230px;
+        transform: scaleY(1.6);
+    }
+}
 .kite-svg {
     position: absolute;
     top: 0;
