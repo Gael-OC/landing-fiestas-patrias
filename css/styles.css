@@ -24,6 +24,15 @@ main section {
     position: relative;
     aspect-ratio: 300 / 340;
     overflow: visible;
+    max-width: 220px;
+    margin: 2rem auto 0;
+}
+
+@media (min-width: 992px) {
+    .hero-kite-space {
+        max-width: 400px;
+        margin: 3rem 0 0 auto;
+    }
 }
 
 .kite-svg {
@@ -59,10 +68,9 @@ main section {
     50% { transform: rotate(6deg);}
 }
 
-@media (min-width: 992px) {
-    .hero-kite-space {
-        min-height: 350px;
-    }
+
+main section {
+    position: relative;
 }
 
 body {
