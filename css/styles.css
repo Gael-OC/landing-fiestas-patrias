@@ -24,13 +24,18 @@ main section {
     position: relative;
     aspect-ratio: 300 / 340;
     overflow: visible;
-    max-width: 220px;
-    margin: 2rem 5% 0 auto;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 767px) {
     .hero-kite-space {
-        max-width: 380px;
+        max-width: 300px;
+        margin: 2rem 5% 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-kite-space {
+        max-width: 520px;
         margin: 3rem 0 0 auto;
     }
 }
