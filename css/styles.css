@@ -41,9 +41,7 @@ main section {
 }
 @media (max-width: 767px) {
     .tail-shape {
-        transform-box: view-box;
-        transform-origin: 110px 230px;
-        transform: scaleY(2.2);
+        transform: translate(0px, 230px) scale(1, 2.2) translate(0px, -230px);
     }
 }
 .kite-svg {
